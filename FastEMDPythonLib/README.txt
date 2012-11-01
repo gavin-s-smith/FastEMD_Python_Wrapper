@@ -6,9 +6,10 @@ WARNING: Functionality is limited. 1D histograms assumed. Ground distance is fix
 
 Wrapper: python_fast_emd.cpp
 
-How to compile: Place python_fast_emd.cpp in the same folder as the files from: 
+How to compile: 
+1. [Optional] Attempt to update the code being wrapped by placing python_fast_emd.cpp in the same folder as the files from: 
 http://www.seas.upenn.edu/~ofirpele/FastEMD/code/
-Tested version from website: FastEMD-3.zip  (17.5.2012)
+Do not need to do this if you are happy with the version included in this GIT: FastEMD-3.zip  (17.5.2012)
 
 Compile by (Ubuntu 12.10):
 g++ python_fast_emd.cpp -o fastemd.so -shared -fPIC -I/usr/include/python2.7 -lboost_python -lpython2.7
