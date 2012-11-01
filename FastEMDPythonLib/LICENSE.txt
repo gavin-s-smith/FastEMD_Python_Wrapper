@@ -1,3 +1,5 @@
+This license applies to all code other than the python wrapper file: python_fast_emd.cpp
+
 IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.
 
 This license is for all code in this distribution except: demo_FastEMD4/deltaE2000.hpp which is a
